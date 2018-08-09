@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>#import("title")</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/app.css">
+    <link rel="stylesheet" href=#import("style")>
+</head>
+<body>
+
+#import("content")
+
+<footer>
+    <p>© 2018 tasuwo</p>
+</footer>
+
+</body>
+</html>

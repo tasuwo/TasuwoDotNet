@@ -1,0 +1,15 @@
+{
+    "server": "engine",
+    "client": "engine",
+    "console": "terminal",
+    "log": "console",
+    "hash": "crypto",
+    "cipher": "crypto",
+    "view": "leaf",
+    "middleware": [
+        "error",
+        "date",
+        "file"
+    ],
+    "commands": []
+}

@@ -1,0 +1,18 @@
+#extend("base")
+
+#export("title") { about }
+
+#export("style") { /styles/content.css }
+
+#export("content") {
+<div id="content-wrapper">
+    <a id="back-button" href="/"><</a>
+    <div id="content">
+        <p>
+        たすを です。
+        <br>
+        コードを書いたり、絵を描いたり、コンテンツを摂取したりして生きています。
+        </p>
+    </div>
+</div>
+}

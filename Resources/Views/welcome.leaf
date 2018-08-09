@@ -1,0 +1,30 @@
+#extend("base")
+
+#export("title") { tasuwo.net }
+
+#export("style") { /styles/welcome.css }
+
+#export("content") {
+<div class="welcome">
+    <h2>tasuwo.net</h2>
+    <img src="/images/walking.gif">
+    <ul>
+       <li><a href="/about">About</a></li>
+       <li><a href="/apps">Apps</a></li>
+    </ul>
+    <div id="accounts">
+        <a href="https://twitter.com/tasuwo_">
+            <img src="/images/icon/twitter.png" alt="twitter" />
+        </a>
+        <a href="https://github.com/tasuwo">
+            <img src="/images/icon/github.png" alt="github" />
+        </a>
+        <a href="https://qiita.com/tasuwo">
+            <img src="/images/icon/qiita.png" alt="qiita" />
+        </a>
+        <a href="https://pixiv.me/user_kztg2774">
+            <img src="/images/icon/pixiv.png" alt="pixiv" />
+        </a>
+    </div>
+</div>
+}

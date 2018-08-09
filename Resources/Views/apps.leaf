@@ -1,0 +1,23 @@
+#extend("base")
+
+#export("title") { apps }
+
+#export("style") { /styles/content.css }
+
+#export("content") {
+<div id="content-wrapper">
+    <a id="back-button" href="/"><</a>
+    <div id="content">
+        <ul>
+            <li>
+                <a href="http://mito-chat.tasuwo.net/">MitoChat</a>
+                <p>
+                月ノ美兎と友達のように接したいという思いから生まれた擬似チャット。
+                <br>
+                今の所、一瞬で終わります。
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+}
