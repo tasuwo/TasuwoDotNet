@@ -7,7 +7,7 @@
 #export("content") {
 <div class="welcome">
     <h2>tasuwo.net</h2>
-    <img src="/images/walking.gif">
+    <img id="main-art" src="/images/walking.gif">
     <ul>
        <li><a href="/about">About</a></li>
        <li><a href="/apps">Apps</a></li>

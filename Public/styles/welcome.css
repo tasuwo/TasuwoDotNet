@@ -8,20 +8,22 @@ div.welcome {
     flex-direction: column;
 }
 
-img {
+img#main-art {
     flex: 1;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 300px;
+    width: 250px;
 }
 
 h2 {
     flex: 1;
+    margin-top: 0;
+    margin-bottom: 0.8em;
 }
 
 ul {
     flex: 1;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
 }
 
 #accounts {
@@ -36,11 +38,30 @@ ul {
 #accounts a {
     flex: 0 0 40px;
     
-    height: 100px;
+    height: auto;
     margin-right: 5px;
     margin-left: 5px;
 }
 
 #accounts > a > img {
     max-width: 100%;
+}
+
+@media (min-width: 42em) {
+    img#main-art {
+        width: 300px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    h2 {
+        margin-top: 0.83em;
+        margin-bottom: 0.7em;
+    }
+    ul {
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    div.welcome {
+        top: 0em;
+    }
 }
